@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Face Detection</title>
+  <link rel="stylesheet" href="{{ url_for('static',filename='styles/style.css') }}">
+</head>
+<body>
+  <!-- Add your video element here -->
+  <video id="video" width="720px" height="560px" autoplay muted></video>
+<div class="sparkle sparkle1"></div>
+<div class="sparkle sparkle2"></div>
+<div class="sparkle sparkle3"></div>
+<div class="sparkle sparkle4"></div>
+  <!-- Icon container -->
+  <div id="icon-container"></div> <!-- Icon container to hold the dynamically generated icons -->
+
+  <canvas id="canvas"></canvas> <!-- You might need this for face detection -->
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.1.1/socket.io.js"></script>
+  <script type="text/javascript" src="{{ url_for('static', filename = 'js/face-api.min.js') }}"></script>
+  <script type="text/javascript" src="{{ url_for('static', filename = 'js/index.js') }}"></script>
+</body>
+</html>

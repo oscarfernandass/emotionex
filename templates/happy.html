@@ -1,0 +1,595 @@
+
+<html>
+<head>
+    <title>Happy</title>
+</head>
+<h1 style="text-align: center; font-family:Bradley Hand, cursive; font-size: 62px; margin-top: 2%; color:aquamarine">HAPPINESS</h1>
+
+<body>
+
+
+
+
+
+    
+
+<style>
+    #input-box {
+  width: 1400px;
+ 
+   padding: 30px; 
+  background-image: url("https://media.istockphoto.com/id/1092823870/vector/seamless-background-pattern-gray-grayscale-wallpaper-vector-illustration.jpg?s=612x612&w=0&k=20&c=5ZYHWgqb1ZIpepWFOFwyDDPEaUTB_wJ82RDue1-E9Dc=");
+  border-radius: 20px;
+  
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -2%;
+height: 500px; 
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+html{
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJ4YdwWzx9jb2kmWEQzJLh6Zmr-sSjNcP6-8k6OBeZ&s");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h1{
+  transition: transform 0.5s ease-in-out;
+}
+
+h1:hover {
+  transform: scale(1.2);
+}
+#box4{
+  height: 167px;
+  width:1050px;
+} 
+
+#moviehappy{
+  display: none;
+}   
+#songhappy{
+  display: none;
+}   
+#bookhappy{
+  display: none;
+}   
+#webshappy{
+  display: none;
+}   
+
+#happy{
+width: 220px;
+height:330px;
+background-color: bisque;
+border-radius: 20px;
+float:left;
+margin-right: 15px;
+margin-left: 35px;
+cursor: pointer;
+}
+
+
+.movies{
+width: 220px;
+height:330px;
+background-color: bisque;
+margin-left: 40px;
+border-radius: 20px;
+float:left;
+cursor: pointer;
+
+}
+.songs{
+width: 220px;
+height:330px;
+background-color: bisque;
+margin-left: 33px;
+border-radius: 20px;
+float:left;
+cursor: pointer;
+
+}
+.books{
+width: 220px;
+height:330px;
+background-color: bisque;
+margin-left: 33px;
+border-radius: 20px;
+float:left;
+cursor: pointer;
+
+}
+.web{
+width: 220px;
+height:330px;
+background-color: bisque;
+margin-left: 33px;
+border-radius: 20px;
+float:left;
+cursor: pointer;
+
+}
+.zoomable {
+transition: transform 0.3s, background-color 0.3s;
+color: aqua;
+}
+
+.zoomable:hover {
+background-color:#10ffef;
+font-style: oblique;
+transform: scale(1.24); /* Zoom effect */
+
+}
+@keyframes blink {
+0% { color: rgb(0, 255, 255); }
+50% { color: blue; }
+100% { color:red; }
+}
+/* Apply the animation to the text */
+.blink {
+animation: blink 1s linear infinite;
+font-size: 36px;
+}
+
+</style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="input-box">
+    <center>
+    <div id="cover" style="width:100%">
+
+
+
+
+
+
+<center>
+<div id="box4" >
+    <div id="happytext">
+      <!-- <h2> We know that your happy rightnow, we help you to maintain your mood,choose any to continue your happiness.</h2> -->
+    </div>
+    <br>
+    <br>
+    <div id="happybot" style="position: static;">
+
+       <div id="see">
+
+      <div id="movies" class="movies">
+        <center>
+        <div class="zoomable">
+          <img src="https://cdn-icons-png.flaticon.com/512/1057/1057467.png" style="height:200px; width:200px; border-radius: 25px; padding-top: 20px;">
+          <h3 style="text-align: center; font-family:Bradley Hand, cursive; font-size: 30px; color:rgb(0, 23, 174); padding-bottom: 30px;">MOVIES</h3>
+        </div>
+        </center>
+      </div>
+      
+      <div id="songs" class="songs">
+        <center>
+        <div class="zoomable">
+          <img src="https://cdn-icons-png.flaticon.com/128/2424/2424726.png" style="height:200px; width:200px; border-radius: 25px; padding-top: 20px;">
+          <h3 style="text-align: center; font-family:Bradley Hand, cursive; font-size: 30px; color:rgb(0, 23, 174); padding-bottom: 30px;">SONGS</h3>
+          </div>
+          </center>
+        </div>
+
+        <div id="books" class="books">
+          <center>  
+        <div class="zoomable">
+          <img src="https://cdn-icons-png.flaticon.com/128/3145/3145765.png" style="height:200px; width:200px; border-radius: 25px; padding-top: 20px;">
+          <h3 style="text-align: center; font-family:Bradley Hand, cursive; font-size: 30px; color:rgb(0, 23, 174); padding-bottom: 30px;">BOOKS</h3>
+          </div>
+          </center>
+        </div>
+
+        <div id="web" class="web">
+          <center> 
+        <div class="zoomable">
+        <img src="https://cdn-icons-png.flaticon.com/512/4660/4660948.png" style="height:200px; width:200px; border-radius: 25px; padding-top: 20px;">
+        <h3 style="text-align: center; font-family:Bradley Hand, cursive; font-size: 30px; color:rgb(0, 23, 174); padding-bottom: 30px;">WEBSERIES</h3>
+        </div>
+        </center>
+    </div>
+  </div>
+  </div>
+  </div>
+  </center>
+
+
+
+
+  <div id="moviehappy">
+
+     <h2 class="blink" style="text-align: center; font-family: 'Courier New', Courier, monospace;">Enjoy these movies.</h2>
+
+    
+    <div id="movie1.happy" class="movies">
+      <center>
+
+        <a href="https://123moviesfree.press/movies/aladdin/" style="text-decoration: none;" target="_blank">
+          <div class="zoomable">
+            <img src="https://image.tmdb.org/t/p/w185/fhyun1mja3WwQsYr1a3x1x9BttP.jpg" style="height:200px; width:200px; border-radius: 25px; padding-top: 20px; ">
+            <h3 style="text-align: center; font-family:Bradley Hand, cursive; font-size: 30px; color:rgb(0, 23, 174); padding-bottom: 30px; text-decoration: none;">ALADDIN</h3>
+          </div>
+        </a>
+        
+      </center>
+    </div>
+    
+    <div id="movie2.happy" class="songs">
+      <center>
+        
+        <a href="https://123moviesfree.press/movies/rushmore/" style="text-decoration: none;" target="_blank">
+      <div class="zoomable">
+        <img src="https://image.tmdb.org/t/p/w185/hSJ6swahAuZ8wM96lHDTwQPXUvZ.jpg" style="height:200px; width:200px; border-radius: 25px; padding-top: 20px;">
+        <h3 style="text-align: center; font-family:Bradley Hand, cursive; font-size: 30px; color:rgb(0, 23, 174); padding-bottom: 30px; text-decoration: none;">RUSHMORE</h3>
+        </div>
+        </a>
+
+        </center>
+      </div>
+
+      <div id="movie4.happy" class="books">
+        <center>  
+
+          <a href="https://123moviesfree.press/movies/jojo-rabbit/" style="text-decoration: none;" target="_blank">
+      <div class="zoomable">
+        <img src="https://image.tmdb.org/t/p/w185/7GsM4mtM0worCtIVeiQt28HieeN.jpg" style="height:200px; width:200px; border-radius: 25px; padding-top: 20px;">
+        <h3 style="text-align: center; font-family:Bradley Hand, cursive; font-size: 30px; color:rgb(0, 23, 174); padding-bottom: 30px; text-decoration: none;">JOJO-RABBIT</h3>
+        </div>
+      </a>
+
+        </center>
+      </div>
+
+      <div id="movie5.happy" class="web">
+        <center> 
+
+          <a href="https://123moviesfree.press/movies/swiss-army-man/" style="text-decoration: none;" target="_blank">
+      <div class="zoomable">
+      <img src="https://image.tmdb.org/t/p/w185/8pxn8CQ6SD6tly75lrKw08wfZKv.jpg" style="height:200px; width:200px; border-radius: 25px; padding-top: 20px;">
+      <h3 style="text-align: center; font-family:Bradley Hand, cursive; font-size: 30px; color:rgb(0, 23, 174); padding-bottom: 30px; text-decoration: none;">SWISS-ARMY-MAN</h3>
+      </div>
+       </a>
+
+      </center>
+  </div>
+  </div>
+
+
+
+
+
+
+
+
+
+  <div id="songhappy">
+
+     <h2 class="blink" style="text-align: center; font-family: 'Courier New', Courier, monospace;">Enjoy listening these songs.</h2>
+
+    
+    <div id="song1.happy" class="movies">
+      <center>
+
+        <a href="https://www.youtube.com/watch?v=yCAuXWRvwWw" style="text-decoration: none;" target="_blank">
+          <div class="zoomable">
+            <img src=" https://m.media-amazon.com/images/I/51ic-nZkOzL.jpg" style="height:200px; width:200px; border-radius: 25px; padding-top: 20px; ">
+            <h3 style="text-align: center; font-family:Bradley Hand, cursive; font-size: 30px; color:rgb(0, 23, 174); padding-bottom: 30px; text-decoration: none;">LETS GO CRAZY</h3>
+          </div>
+        </a>
+        
+      </center>
+    </div>
+    
+    <div id="song2.happy" class="songs">
+      <center>
+        
+        <a href="https://www.youtube.com/watch?v=pTdihu-mp90" style="text-decoration: none;" target="_blank">
+      <div class="zoomable">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxEXyyqj7QyoyLhrOjg-ha_vArsh8cQNY1HA&usqp=CAU" style="height:200px; width:200px; border-radius: 25px; padding-top: 20px;">
+        <h3 style="text-align: center; font-family:Bradley Hand, cursive; font-size: 30px; color:rgb(0, 23, 174); padding-bottom: 30px; text-decoration: none;">I GOT YOU</h3>
+        </div>
+        </a>
+
+        </center>
+      </div>
+
+      <div id="song3.happy" class="books">
+        <center>  
+
+          <a href="https://www.youtube.com/watch?v=17hPCHLMpyM" style="text-decoration: none;" target="_blank">
+      <div class="zoomable">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRppjW5RxJ61Wpdq_yr-TdptZ4Nm4IMJhMIXQ&usqp=CAU" style="height:200px; width:200px; border-radius: 25px; padding-top: 20px;">
+        <h3 style="text-align: center; font-family:Bradley Hand, cursive; font-size: 30px; color:rgb(0, 23, 174); padding-bottom: 30px; text-decoration: none;">FLAWLESS</h3>
+        </div>
+      </a>
+
+        </center>
+      </div>
+
+      <div id="song4.happy" class="web">
+        <center> 
+
+          <a href="https://www.youtube.com/watch?v=RBOJpIwF47Y" style="text-decoration: none;" target="_blank">
+      <div class="zoomable">
+      <img src="https://upload.wikimedia.org/wikipedia/en/e/e6/Christina_Aguilera_-_Fighter_%28single%29.png" style="height:200px; width:200px; border-radius: 25px; padding-top: 20px;">
+      <h3 style="text-align: center; font-family:Bradley Hand, cursive; font-size: 30px; color:rgb(0, 23, 174); padding-bottom: 30px; text-decoration: none;">FIGHTER</h3>
+      </div>
+       </a>
+
+      </center>
+  </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <div id="bookhappy">
+
+     <h2 class="blink" style="text-align: center; font-family: 'Courier New', Courier, monospace;">Enjoy reading these books.</h2>
+
+    
+    <div id="book1.happy" class="movies">
+      <center>
+
+        <a href="https://fb2bookfree.com/romance/5261-the-summer-i-turned.html" style="text-decoration: none;" target="_blank">
+          <div class="zoomable">
+            <img src="https://books.google.co.in/books/content?id=lVZxmtJUGLgC&pg=PP1&img=1&zoom=3&hl=en&bul=1&sig=ACfU3U1iv79-FFzRgC_4kx7frenQHFPRBA&w=1280" style="height:200px; width:200px; border-radius: 25px; padding-top: 20px; ">
+            <h3 style="text-align: center; font-family:Bradley Hand, cursive; font-size: 30px; color:rgb(0, 23, 174); padding-bottom: 30px; text-decoration: none;">THE SUMMER I TURNED PRETTY</h3>
+          </div>
+        </a>
+        
+      </center>
+    </div>
+    
+    <div id="book2.happy" class="songs">
+      <center>
+        
+        <a href="https://christinajune.com/books/no-place-like-here/" style="text-decoration: none;" target="_blank">
+      <div class="zoomable">
+        <img src="https://m.media-amazon.com/images/I/81runMD7lpL.jpg" style="height:200px; width:200px; border-radius: 25px; padding-top: 20px;">
+        <h3 style="text-align: center; font-family:Bradley Hand, cursive; font-size: 30px; color:rgb(0, 23, 174); padding-bottom: 30px; text-decoration: none;">NO PLACE LIKE HERE</h3>
+        </div>
+        </a>
+
+        </center>
+      </div>
+
+      <div id="book3.happy" class="books">
+        <center>  
+
+          <a href="https://docs.google.com/viewer?a=v&pid=sites&srcid=ZWhvcm5ldHMub3JnfGVmbXMtbGFuZ3VhZ2UtYXJ0c3xneDo2MmFmNzZkZDc5MjI3M2M1" style="text-decoration: none;" target="_blank">
+      <div class="zoomable">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcIN7IESmydL5PdM3Sf8ZZ_PTuqdJL-ijEMQ&usqp=CAU" style="height:200px; width:200px; border-radius: 25px; padding-top: 20px;">
+        <h3 style="text-align: center; font-family:Bradley Hand, cursive; font-size: 30px; color:rgb(0, 23, 174); padding-bottom: 30px; text-decoration: none;">THE GIVER</h3>
+        </div>
+      </a>
+
+        </center>
+      </div>
+
+      <div id="book4.happy" class="web">
+        <center> 
+
+          <a href="https://freebooksmania.com/2018/06/wings-of-fire-book-in-english-pdf-free.html" style="text-decoration: none;" target="_blank">
+      <div class="zoomable">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSr0eTs-2HjCV6yOkCPUhyeQ1CWbPYha5EjQw&usqp=CAU" style="height:200px; width:200px; border-radius: 25px; padding-top: 20px;">
+      <h3 style="text-align: center; font-family:Bradley Hand, cursive; font-size: 30px; color:rgb(0, 23, 174); padding-bottom: 30px; text-decoration: none;">WINGS OF FIRE</h3>
+      </div>
+       </a>
+
+      </center>
+  </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <div id="webshappy">
+
+     <h2 class="blink" style="text-align: center; font-family: 'Courier New', Courier, monospace;">Enjoy watching these series.</h2>
+
+    
+    <div id="webs1.happy" class="movies">
+      <center>
+
+        <a href="https://123moviesfree.press/tvshows/family-guy/" style="text-decoration: none;" target="_blank">
+          <div class="zoomable">
+            <img src="https://image.tmdb.org/t/p/w185/3IeWkOS5CVf4icEOVOE2V46rZZV.jpg" style="height:200px; width:200px; border-radius: 25px; padding-top: 20px; ">
+            <h3 style="text-align: center; font-family:Bradley Hand, cursive; font-size: 30px; color:rgb(0, 23, 174); padding-bottom: 30px; text-decoration: none;">FAMILY-GUY</h3>
+          </div>
+        </a>
+        
+      </center>
+    </div>
+    
+    <div id="webs2.happy" class="songs">
+      <center>
+        
+        <a href="https://123moviesfree.press/tvshows/outlander/" style="text-decoration: none;" target="_blank">
+      <div class="zoomable">
+        <img src="https://image.tmdb.org/t/p/w185/oR0PM7hFDqY3kO12cLLQMKiJt8I.jpg" style="height:200px; width:200px; border-radius: 25px; padding-top: 20px;">
+        <h3 style="text-align: center; font-family:Bradley Hand, cursive; font-size: 30px; color:rgb(0, 23, 174); padding-bottom: 30px; text-decoration: none;">OUTLANDER</h3>
+        </div>
+        </a>
+
+        </center>
+      </div>
+
+      <div id="webs3.happy" class="books">
+        <center>  
+
+          <a href="https://123moviesfree.press/tvshows/the-good-place/" style="text-decoration: none;" target="_blank">
+      <div class="zoomable">
+        <img src="https://image.tmdb.org/t/p/w185/eFV0O3u0CbVdhEYIozea4iZRn3O.jpg" style="height:200px; width:200px; border-radius: 25px; padding-top: 20px;">
+        <h3 style="text-align: center; font-family:Bradley Hand, cursive; font-size: 30px; color:rgb(0, 23, 174); padding-bottom: 30px; text-decoration: none;">THE GOOD PLACE</h3>
+        </div>
+      </a>
+
+        </center>
+      </div>
+
+      <div id="webs4.happy" class="web">
+        <center> 
+
+          <a href="https://123moviesfree.press/tvshows/broad-city/" style="text-decoration: none;" target="_blank">
+      <div class="zoomable">
+      <img src="https://image.tmdb.org/t/p/w185/fRu9zQFdWHjEVyHwnIYqm0LRoKA.jpg" style="height:200px; width:200px; border-radius: 25px; padding-top: 20px;">
+      <h3 style="text-align: center; font-family:Bradley Hand, cursive; font-size: 30px; color:rgb(0, 23, 174); padding-bottom: 30px; text-decoration: none;">BROAD-CITY</h3>
+      </div>
+       </a>
+
+      </center>
+  </div>
+  </div>
+  </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script>
+
+    function runByDefault() {
+          const responseText = "We know that you're happy right now, we'll help you maintain your mood. Choose any and enjoy right now.";
+          const responseElement = document.getElementById("happytext");
+    
+          function displayResponseText() {
+            for (let i = 0; i < responseText.length; i++) {
+              setTimeout(() => {
+                responseElement.textContent += responseText[i];
+              }, i * 50);
+            }
+          }
+    
+          responseElement.style.color = "red";
+          responseElement.style.fontSize = "40px";
+          responseElement.style.fontFamily = "Courier New, monospace, Courier, monospace";
+          displayResponseText();
+    
+          document.getElementById("input-box").style.width = "1045px";
+        }
+    
+        // Run the function when the page finishes loading.
+        window.onload = runByDefault;
+    
+        document.getElementById("movies").addEventListener("click", function() {
+          document.getElementById("moviehappy").style.display = "inline";
+          document.getElementById("box4").style.display = "none";
+        });
+        document.getElementById("songs").addEventListener("click", function(event){
+              document.getElementById("box4").style.display = "none";
+              document.getElementById("moviehappy").style.display = "none";
+              document.getElementById("songhappy").style.display = "inline";
+            });
+            document.getElementById("books").addEventListener("click", function(event){
+              document.getElementById("box4").style.display = "none";
+              document.getElementById("moviehappy").style.display = "none";
+              document.getElementById("bookhappy").style.display = "inline";
+              document.getElementById("songhappy").style.display = "none";
+              document.getElementById("webshappy").style.display = "none";
+            });
+            document.getElementById("web").addEventListener("click", function(event){
+              document.getElementById("box4").style.display = "none";
+              document.getElementById("moviehappy").style.display = "none";
+              document.getElementById("bookhappy").style.display = "none";
+              document.getElementById("songhappy").style.display = "none";
+              document.getElementById("webshappy").style.display = "inline";
+            });
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </script>
+    
+    
+    
+    
+    
+    
+    
+    
+  </body>
+  </html>
